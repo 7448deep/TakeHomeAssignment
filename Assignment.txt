@@ -1,0 +1,16 @@
+public class Address {
+	String addressLine;
+	String city;
+	String zip;
+}
+class NaturalPerson extends Address
+{
+	Integer id;
+	String name;
+	Date dateOfBirth;
+	Integer age;
+}
+class LegalPerson extends NaturalPerson
+{
+	Integer numberOfEmployees;
+}
